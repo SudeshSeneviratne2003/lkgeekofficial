@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(background.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000;
+    width: 100%;
+    font-size: larger;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.maindiv {
+    width: 80%;
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.div1 {
+    background-color: rgb(255, 255, 255, 0.5);
+    font-size: larger;
+    padding: 1px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+span {
+    text-align: center;
+    background-color: rgb(255, 250, 0);
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
